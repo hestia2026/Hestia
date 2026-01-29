@@ -1,0 +1,13 @@
+num_sketch: 10
+num_query: 20
+num_batches: 5
+
+codebook: [-1.0, 0.0, 1.0]
+group_size: 0
+
+compress_ratio: 0.2
+anneal_ratio: 0.8
+temp_decay_style: "cosine"
+end_temp: 0.0
+
+enable_hestia: True
